@@ -2,6 +2,10 @@
 
 Use this command to create a new project using this starter:
 
+## Requirement
+PHP >= 8.1
+Nodejs >= 20.10.0
+
 ## Installation
 
 ```sh
