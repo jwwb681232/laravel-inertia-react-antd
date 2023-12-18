@@ -14,18 +14,18 @@ function Edit({ auth, mustVerifyEmail, status }) {
 
             <div className="py-12">
                 <Row gutter={[0, 20]}>
-                    <Col span={16}>
+                    <Col span={24}>
                         <UpdateProfileInformationForm
                             mustVerifyEmail={mustVerifyEmail}
                             status={status}
                         />
                     </Col>
 
-                    <Col span={16}>
+                    <Col span={24}>
                         <UpdatePasswordForm />
                     </Col>
 
-                    <Col span={16}>
+                    <Col span={24}>
                         <DeleteUserForm />
                     </Col>
                 </Row>
