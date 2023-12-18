@@ -4,8 +4,7 @@ import '../css/app.css';
 import 'antd-css-utilities/utility.min.css'
 
 import { createRoot } from 'react-dom/client';
-import { createInertiaApp } from '@inertiajs/inertia-react';
-import { InertiaProgress } from '@inertiajs/progress';
+import { createInertiaApp } from '@inertiajs/react';
 import { ConfigProvider } from 'antd';
 import theme from './theme';
 
@@ -30,6 +29,5 @@ createInertiaApp({
 
         root.render(app);
     },
+    progress:{ color: '#4B5563' },
 });
-
-InertiaProgress.init({ color: '#4B5563' });

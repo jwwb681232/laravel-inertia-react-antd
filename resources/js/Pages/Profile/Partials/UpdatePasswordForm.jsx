@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useForm } from '@inertiajs/inertia-react';
+import { useForm } from '@inertiajs/react';
 import { Button, Card, Form, Input, message, Typography } from 'antd';
 
 export default function UpdatePasswordForm({ className }) {
@@ -51,7 +51,7 @@ export default function UpdatePasswordForm({ className }) {
             <Card className={className}>
                 <header className='mb-8'>
                     <Typography.Title level={4}>Update Password</Typography.Title>
-                    
+
                     <Typography.Text type='secondary'>
                         Ensure your account is using a long, random password to stay secure.
                     </Typography.Text>

@@ -1,8 +1,7 @@
-import { useForm, usePage } from '@inertiajs/inertia-react';
 import { Alert, Button, Card, Form, Input, message, Space, Typography } from 'antd';
 
 import { CheckCircleFilled } from '@ant-design/icons';
-import { Inertia } from '@inertiajs/inertia';
+import { router,useForm,usePage } from '@inertiajs/react';
 
 export default function UpdateProfileInformation({ mustVerifyEmail, status, className }) {
     const [messageApi, contextHolder] = message.useMessage();
@@ -23,7 +22,7 @@ export default function UpdateProfileInformation({ mustVerifyEmail, status, clas
     };
 
     const resendVerification = () => {
-        Inertia.post(route('verification.send'));
+        router.post(route('verification.send'));
     }
 
     return (
@@ -32,7 +31,7 @@ export default function UpdateProfileInformation({ mustVerifyEmail, status, clas
             <Card className={className}>
                 <header className='mb-8'>
                     <Typography.Title level={4}>Profile Information</Typography.Title>
-                    
+
                     <Typography.Text type='secondary'>
                         Update your account's profile information and email address.
                     </Typography.Text>

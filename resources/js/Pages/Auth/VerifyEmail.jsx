@@ -1,5 +1,5 @@
 import GuestLayout from '@/Layouts/GuestLayout';
-import { Head, Link, useForm } from '@inertiajs/inertia-react';
+import { Head, Link, useForm } from '@inertiajs/react';
 import { Alert, Button, Card, Col, Form, Row, Typography } from 'antd';
 
 function VerifyEmail({ status }) {

@@ -1,6 +1,6 @@
 import GuestLayout from '@/Layouts/GuestLayout';
 
-import { Head, Link, useForm } from '@inertiajs/inertia-react';
+import { Head, Link, useForm } from '@inertiajs/react';
 import { Button, Card, Form, Input, Space, Typography } from 'antd';
 
 function ForgotPassword() {

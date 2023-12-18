@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import GuestLayout from '@/Layouts/GuestLayout';
-import { Head, useForm } from '@inertiajs/inertia-react';
+import { Head,useForm } from '@inertiajs/react'
 import { Button, Card, Form, Input, Typography } from 'antd';
 
 function ConfirmPassword() {

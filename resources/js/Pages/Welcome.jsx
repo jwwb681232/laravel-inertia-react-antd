@@ -1,4 +1,4 @@
-import { Link, Head } from '@inertiajs/inertia-react';
+import { Link, Head } from '@inertiajs/react';
 import { Button, Col, Row, Typography } from 'antd';
 
 export default function Welcome() {

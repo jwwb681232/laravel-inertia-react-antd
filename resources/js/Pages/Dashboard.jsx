@@ -1,5 +1,5 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
-import { Head } from '@inertiajs/inertia-react';
+import { Head } from '@inertiajs/react';
 import { Card, Typography } from 'antd';
 
 function Dashboard(props) {
