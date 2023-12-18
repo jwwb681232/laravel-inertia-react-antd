@@ -9,7 +9,7 @@ Nodejs >= 20.10.0
 ## Installation
 
 ```sh
-composer create-project khatriafaz/laravel-inertia-react-antd-starter
+composer create-project jwwb681232/laravel-inertia-react-antd
 ```
 
 Install npm packages:
